@@ -28,7 +28,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("인적사항을 알려주세요")
+st.title("인적사항")
 st.write("인적사항 입력")
 st.write("이름, 나이, 성별, 주소를 입력하셔야 합니다.")
 
