@@ -1,6 +1,7 @@
 # 실행방법 : 터미널 창에서 아래 명령어 실행 
 # python -m streamlit run c:/Users/user/Desktop/coding_lesson/myapp.py
 
+
 # streamlit은 웹사이트를 만들도록 도와주는 python의 라이브러리
 import streamlit as st # streamlit을 사용할거라는 뜻 
 # pandas는 표 데이터를 다룰 수 있도록 도와주는 python 라이브러리 
