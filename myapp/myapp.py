@@ -14,6 +14,16 @@ import streamlit as st # streamlit을 사용할거라는 뜻
 import pandas as pd 
 # os는 파일을 경로에 만들어주거나, 파일이 있는지 확인해줄 수 있는 라이브러리 
 import os 
+
+st.markdown("""
+<style>
+/* 메인 앱 컨테이너(화면 대부분)를 선택해서 배경색 지정 */
+[data-testid="stAppViewContainer"] {
+    background-color: #93d4db;  /* 파스텔 블루톤 HEX 코드 */
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.markdown(
     """
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
