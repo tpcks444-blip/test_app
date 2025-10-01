@@ -50,4 +50,6 @@ st.image("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhI
 # 내가 좋아하는 Youtube 채널
 st.header("내가 좋아하는 유튜브")
 st.markdown("[구글로 이동](https://www.google.com)")
+st.markdown("[너진똑 유튜브](https://www.youtube.com/@NJT_BOOK)")
+st.markdown("[교육원 블로그](https://blog.naver.com/sc_school/223991027948)")
 
