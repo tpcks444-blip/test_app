@@ -4,9 +4,9 @@
 # 수정이 되면, git에다가 내 컴퓨터에 있는 코드를 올려야 한다
 # git에 코드를 업로드 하는 방법 
 # 1) vs code의 밑의 창에서 TERMINAL 탭을 클릭!
-# 2) git add .  입력 하면, 현재 수정된 파일을 반영할 준비를 한다는 뜻 
-# 3) git commit -m "메세지 내용" 수정한 사항을 기록함
-# 4) git push origin main 하면 git에다가 수정한 사항을 push 하는 것 
+# 2) > git add .  입력 하면, 현재 수정된 파일을 반영할 준비를 한다는 뜻 
+# 3) > git commit -m "메세지 내용" 수정한 사항을 기록함
+# 4) > git push origin main 하면 git에다가 수정한 사항을 push 하는 것 
 
 # streamlit은 웹사이트를 만들도록 도와주는 python의 라이브러리
 import streamlit as st # streamlit을 사용할거라는 뜻 
@@ -49,5 +49,5 @@ st.image("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhI
 
 # 내가 좋아하는 Youtube 채널
 st.header("내가 좋아하는 유튜브")
-
+st.markdown("[구글로 이동](https://www.google.com)")
 
